@@ -1,0 +1,189 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.pink {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #2A4580;
+    width: 100%;
+    margin: 0px;
+}
+
+.button {
+    display: flex;
+    background-color: #36bbce;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 15px;
+    font-size: 24px;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.button:hover{
+    background-color: white;
+}
+
+nav {
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav:hover {
+    color: darkblue;
+    text-decoration: dotted;
+}
+
+.nav-link {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.nav-link:hover {
+    font-size: 22px;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    margin: 40px 0;
+}
+
+p {
+    font-size: 24px;
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0px; 
+    justify-content: center;
+}
+
+article {
+    text-decoration: none;
+    background-color: white;
+    padding: 15px;
+    width: 400px;
+    margin: 30px;
+    text-align: center;
+    color: black;
+}
+
+article:hover {
+    background-color: rgba(255, 255, 255, 0.699);
+}
+
+.article-but {
+    text-decoration: none;
+    background-color: #6C8DD5;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    font-size: 20px;
+    margin: 50px;
+}
+
+.article-but:hover {
+    background-color: darkblue;
+}
+
+footer {
+    background-color: white;
+    padding: 10px;
+}
+
+footer a {
+    margin-right: 1opx;
+}
+
+footer p {
+    font-size: 24px;
+    padding-left: 10px;
+}
+
+.grange {
+    display: flex;
+    background-color: #2A4580;
+}
+
+.red {
+    color: white;
+}
+
+.orange {
+    width: 100%;
+}
+
+.grange:hover {
+    position: fixed;
+    right: 0px;
+} 
+
+h1 {
+    text-align: center;
+}
+
+h1::before
+{
+    content: "";
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    background-image: url("https://img.freepik.com/premium-vector/rhombus-geometric-shape-element-symbol-preschool-education-kids-mathematics-learning_435942-1124.jpg?semt=ais_hybrid&w=740");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+h1::after {
+    content: "";
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    background-image: url("https://img.freepik.com/premium-vector/rhombus-geometric-shape-element-symbol-preschool-education-kids-mathematics-learning_435942-1124.jpg?semt=ais_hybrid&w=740");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.scare {
+    position: absolute;
+    top: 300px;
+    left: 600px;
+}
+
+    
+
+
+
+
+
+
+
+
+
